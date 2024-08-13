@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mc1496")(type "KiCad")(uri "${KIPRJMOD}/mc1496.kicad_sym")(options "")(descr ""))
+  (lib (name "MC1496D")(type "KiCad")(uri "${KIPRJMOD}/pcblib/MC1496D.kicad_sym")(options "")(descr ""))
+)
