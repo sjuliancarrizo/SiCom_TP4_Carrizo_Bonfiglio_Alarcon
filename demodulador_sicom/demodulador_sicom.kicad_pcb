@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010c0_ffffffff)
+			(layerselection 0x0001040_7ffffffe)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -113,7 +113,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "fabrication/svg/")
 		)
@@ -9163,7 +9163,7 @@
 		(attr through_hole)
 		(fp_arc
 			(start 4.76359 -1.712662)
-			(mid 5.062075 0.019867)
+			(mid 5.062075 0.019868)
 			(end 4.750001 1.750001)
 			(stroke
 				(width 0.12)
@@ -9427,7 +9427,7 @@
 		(attr through_hole)
 		(fp_arc
 			(start 4.76359 -1.712662)
-			(mid 5.062075 0.019867)
+			(mid 5.062075 0.019868)
 			(end 4.750001 1.750001)
 			(stroke
 				(width 0.12)
@@ -9691,7 +9691,7 @@
 		(attr through_hole)
 		(fp_arc
 			(start 4.76359 -1.712662)
-			(mid 5.062075 0.019867)
+			(mid 5.062075 0.019868)
 			(end 4.750001 1.750001)
 			(stroke
 				(width 0.12)
@@ -12872,6 +12872,32 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "133f70f8-bcb8-45cd-ad3f-082a71ee1371")
+	)
+	(gr_text "DEMO TOP"
+		(at 188.2 106.4 0)
+		(layer "F.Cu")
+		(uuid "3907dba9-578a-4782-a0f8-4e2eb6e2ebe8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DEMO BOTTOM"
+		(at 203.2 106.2 0)
+		(layer "B.Cu")
+		(uuid "243da2b3-4389-4513-b1b3-9a36c4014e55")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(dimension
 		(type aligned)

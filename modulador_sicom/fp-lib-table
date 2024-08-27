@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pcblib")(type "KiCad")(uri "${KIPRJMOD}/pcblib")(options "")(descr ""))
+  (lib (name "via")(type "KiCad")(uri "${KIPRJMOD}/pcblib/via.pretty")(options "")(descr ""))
+  (lib (name "connector")(type "KiCad")(uri "${KIPRJMOD}/pcblib/connector.pretty")(options "")(descr ""))
+)
